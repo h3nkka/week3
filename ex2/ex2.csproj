@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A6992720-7E14-44E1-85D8-EF0047DD88F7}</ProjectGuid>
+    <ProjectGuid>{4B11D14C-F204-4D78-9B4E-9A9D0B76C283}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ex1</RootNamespace>
-    <AssemblyName>ex1</AssemblyName>
+    <RootNamespace>ex2</RootNamespace>
+    <AssemblyName>ex2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hissi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tank.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
